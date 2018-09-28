@@ -1,0 +1,12 @@
+.comments-form {
+    background-color: #ecf0f1;
+}
+
+.comments-form > form > input,
+.comments-form > form > textarea {
+    margin-bottom: 20px;
+}
+
+.comments-form > form > button {
+    float: right;
+}

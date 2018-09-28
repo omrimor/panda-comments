@@ -1,0 +1,35 @@
+.comment-feed-list {
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    overflow: scroll;
+}
+
+.comment-feed__filter-input {
+    margin-bottom: 20px;
+}
+
+.comment-feed-list__item {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.comment-feed-list__item__gravatar {
+    margin-right: 20px;
+    width: 64px;
+    height: 64px;
+}
+
+.comment-feed-list__item__gravatar:hover {
+    cursor: pointer;
+}
+
+.comment-feed-list__item__email,
+.comment-feed-list__item__message {
+    margin-bottom: 0;
+}
+
+.comment-feed-list__item__email {
+    font-weight: bold;
+}
+

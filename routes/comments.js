@@ -17,7 +17,7 @@ const commentsHandler = {
     });
     try {
       const result = await comment.save();
-      return res.status(201).json({ success: result });
+      return res.status(201).json(result);
     } catch (err) {
       return res.status(400).json({ error: err.message });
     }
