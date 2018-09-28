@@ -4,7 +4,7 @@ It combines a server and client implementation of a comments feed widget.
 
 ## Quick Start
 1. Clone the repo into your machine.
-2. Install project dependencies (server & client)
+2. Install project dependencies (`yarn` recommenced)
 ```sh
 yarn
 ```
